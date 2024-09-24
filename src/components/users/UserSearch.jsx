@@ -29,18 +29,18 @@ function UserSearch() {
 		<div className="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 mb-9 gap-8">
 			<div>
 				<form onSubmit={handleSubmit}>
-					<div className="form-control">
-						<div className="relative">
+					<div className="form-control rounded-r-3xl">
+						<div className="relative rounded-r-3xl">
 							<input
 								type="text"
-								className="w-full pr-40 bg-gray-200 input input-lg text-black"
+								className="w-full pr-40 bg-gray-200 rounded-r-full input input-lg text-black"
 								placeholder="Digite o nome do usuário"
 								value={text}
 								onChange={handleChange}
 							/>
 							<button
 								type="submit"
-								className="absolute top-0 right-0 rounded-l-none w-36 btn btn-lg">
+								className="absolute top-0 right-0 rounded-l-none rounded-r-lg w-36 btn btn-lg">
 								Pesquisar
 							</button>
 						</div>
