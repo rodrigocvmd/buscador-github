@@ -1,8 +1,72 @@
-# React + Vite
+# Buscador GitHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação que permite a busca e exibição de perfis e repositórios do GitHub, utilizando integração com a **API oficial do GitHub**. A navegação entre as páginas é feita de forma fluida com o uso do **React Router**, enquanto o backend lida com requisições assíncronas para recuperação de dados, garantindo eficiência no direcionamento para perfis e repositórios.
 
-Currently, two official plugins are available:
+A solução oferece uma **interface amigável** e é preparada para tratar situações de erro, como perfis inexistentes ou páginas não encontradas, assegurando uma experiência completa para o usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React Router**: Navegação entre as páginas.
+- **API do GitHub**: Integração para busca de perfis e repositórios.
+- **Context API e Reducers**: Gerenciamento de estado eficiente.
+- **Backend**: Requisições assíncronas para comunicação com a API.
+- **Libs de ícones e componentes**: Interface escalável e responsiva.
+
+---
+
+## 🌟 Destaques do Projeto
+
+### 1. **Gerenciamento de Estado Robusto**
+Foi desenvolvido um sistema que combina **Context API** com **reducers personalizados**, como:
+- **GithubProvider**: Gerencia dados e interações relacionadas à API do GitHub.
+- **AlertProvider**: Gerencia alertas e notificações dentro da aplicação.
+
+Essa abordagem permitiu fornecer dados e funcionalidades para múltiplos componentes sem a necessidade de passar propriedades manualmente, resultando em um código mais limpo e eficiente.
+
+---
+
+### 2. **Arquitetura Modular**
+- A modularização do código facilitou a escalabilidade e a manutenção.
+- A integração de **ícones** e **componentes reutilizáveis** foi essencial para criar uma interface responsiva e funcional.
+
+---
+
+### 3. **Tratamento de Erros**
+- Implementação de mensagens claras para casos como perfis inexistentes ou páginas não encontradas.
+- Garantia de uma experiência do usuário contínua e livre de frustrações.
+
+---
+
+## 🚀 Funcionalidades
+
+- **Busca de perfis do GitHub**: Permite encontrar qualquer usuário público na plataforma.
+- **Listagem de repositórios**: Exibe repositórios de um usuário específico.
+- **Navegação intuitiva**: Transição suave entre páginas e perfis.
+- **Alertas dinâmicos**: Feedback imediato para o usuário em situações de erro ou sucesso.
+
+---
+
+## 💡 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram reforçadas habilidades cruciais, como:
+- Gerenciamento eficiente de múltiplos contextos.
+- Desenvolvimento de reducers para lidar com alertas e dados dinâmicos.
+- Construção de uma aplicação **escalável e responsiva**.
+- Integração com APIs externas e manipulação de dados assíncronos.
+
+---
+
+## 🖥️ Demonstração
+
+Adicione aqui screenshots ou GIFs mostrando a funcionalidade da aplicação.
+
+---
+
+## 🛠️ Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/buscador-github.git
+   
