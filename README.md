@@ -1,6 +1,6 @@
 # Buscador GitHub
 
-Este projeto é uma aplicação que permite a busca e exibição de perfis e repositórios do GitHub, utilizando integração com a **API oficial do GitHub**. A navegação entre as páginas é feita de forma fluida com o uso do **React Router**, enquanto o backend lida com requisições assíncronas para recuperação de dados, garantindo eficiência no direcionamento para perfis e repositórios.
+Projeto de uma aplicação que permite a busca e exibição de perfis e repositórios do GitHub, utilizando integração com a **API oficial do GitHub**. A navegação entre as páginas é feita de forma fluida com o uso do **React Router**, enquanto o back-end lida com requisições assíncronas para recuperação de dados, garantindo eficiência no direcionamento para perfis e repositórios.
 
 A solução oferece uma **interface amigável** e é preparada para tratar situações de erro, como perfis inexistentes ou páginas não encontradas, assegurando uma experiência completa para o usuário.
 
@@ -58,15 +58,9 @@ Durante o desenvolvimento deste projeto, foram reforçadas habilidades cruciais,
 
 ---
 
-## 🖥️ Demonstração
-
-Adicione aqui screenshots ou GIFs mostrando a funcionalidade da aplicação.
-
----
-
 ## 🛠️ Como Executar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/buscador-github.git
+   git clone https://github.com/rodrigocvmd/buscador-github.git
    
